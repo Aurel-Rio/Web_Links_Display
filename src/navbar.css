@@ -1,0 +1,32 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid rgb(88, 88, 88);
+  background-color: transparent;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbarLinks {
+  display: flex;
+  float: right;
+  margin-right: 10px;
+}
+
+.navbarLinks ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.navbarLinks li {
+  margin-right: 10px;
+}
+
+.navbarLogo{
+  position: absolute;
+  margin: 15px 0px 0px 25px;
+}

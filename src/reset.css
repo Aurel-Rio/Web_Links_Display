@@ -1,0 +1,57 @@
+/* Box sizing rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A better looking default horizontal rule */
+hr {
+  size: 1px;
+  border: none;
+  background-color: #333;
+  height: 1px;
+}
+
+/* Remove the border on images inside links in IE 10. */
+a img {
+  border: none;
+}
+
+/* Remove the outline on focused links */
+a:focus {
+  outline: none;
+}

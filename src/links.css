@@ -1,0 +1,7 @@
+.links:first-child {
+    margin-top: 120px;
+}
+
+.links:not(:first-child) {
+    margin-top: 40px;
+}
